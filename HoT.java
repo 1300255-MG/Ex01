@@ -26,5 +26,17 @@ public class HoT{
       }
     }
     System.out.println("Heads: "+countH+", Tails: "+countT);
+    
+    String WoL;
+    if(countH>countT)
+    {
+      WoL="win";
+    }
+    else
+    {
+      WoL="lose";
+    }
+    System.out.println(name+ " " + WoL);
+    
   }
 }
